@@ -68,6 +68,7 @@ func initConfig() {
 		viper.AddConfigPath(home)
 		viper.SetConfigType("yaml")
 		viper.SetConfigName("taskManager")
+		// hola
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match
